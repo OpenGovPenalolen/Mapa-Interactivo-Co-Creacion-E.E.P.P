@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa Interactivo</title>
+    <!-- Estilo de Leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" />
+    <!-- Estilo personalizado -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Estilo del geocodificador -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css" />
+    <!-- Estilo de clústeres (opcional) -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css" />
+</head>
+<body>
+    <!-- Menú desplegable para filtrar proyectos -->
+    <select id="filtroEstado" style="margin: 10px; padding: 5px; position: absolute; z-index: 1000; background: white; border: 1px solid #ccc; border-radius: 4px;">
+        <option value="todos">Todos</option>
+        <option value="licitacion">En licitación</option>
+        <option value="construccion">En construcción</option>
+        <option value="finalizado">Finalizado</option>
+    </select>
+
+    <!-- Contenedor del mapa -->
+    <div id="map" style="height: 100vh;"></div>
+
+    <!-- Script de Leaflet -->
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+    <!-- Script del geocodificador -->
+    <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
+    <!-- Script de clústeres (opcional) -->
+    <script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
+    <!-- Script de Leaflet EasyPrint -->
+    <script src="https://rawgit.com/rowanwins/leaflet-easyPrint/gh-pages/dist/bundle.js"></script>
+    <!-- Script personalizado -->
+    <script src="js/script.js"></script>
+</body>
+</html>

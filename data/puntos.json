@@ -1,0 +1,125 @@
+[
+    {
+        "nombre": "Remodelación Plaza Volcán Aconcagua (San Luis)",
+        "descripcion": "Proyecto en proceso de co-creación con la comunidad de Peñalolén. Este proyecto busca mejorar el entorno y generar un espacio recreativo moderno y sustentable.",
+        "lat": -33.495746,
+        "lng": -70.576038,
+        "link": "https://participa.penalolen.cl/Home/detalle/a72cc5bd50d67ca87a7a242a6cc08c3181dc7ba8",
+        "estado": "Finalizado",
+        "presupuesto": "$250,000,000",
+        "fecha_inicio": "2024-03-01",
+        "fecha_termino": "2024-12-15",
+        "empresa_responsable": "Pendiente de adjudicación",
+        "documentos": "https://participa.penalolen.cl/Home/documentos/a72cc5bd50d67ca87a7a242a6cc08c3181dc7ba8",
+        "avance": "100%",
+        "area": [
+            [-33.495567, -70.576264],
+            [-33.495752, -70.576349],
+            [-33.495945, -70.575888],
+            [-33.495743, -70.575756]
+        ]
+    },
+    {
+        "nombre": "Remodelación Plaza Las Torres",
+        "descripcion": "Proyecto en proceso de co-creación con la comunidad de Peñalolén. Se busca remodelar el área para mejorar la infraestructura y generar espacios recreativos modernos.",
+        "lat": -33.508065,
+        "lng": -70.584630,
+        "link": "https://participa.penalolen.cl/Home/detalle/980e611afc84acbea8c53600cf336d3a386c3498",
+        "estado": "En licitación",
+        "presupuesto": "$150,000,000",
+        "fecha_inicio": "2024-05-01",
+        "fecha_termino": "2024-12-31",
+        "empresa_responsable": "Pendiente de adjudicación",
+        "documentos": "https://participa.penalolen.cl/Home/documentos/980e611afc84acbea8c53600cf336d3a386c3498",
+        "avance": "0%",
+        "area": [
+            [-33.507934, -70.584713],
+            [-33.508137, -70.584757],
+            [-33.508192, -70.584565],
+            [-33.507948, -70.584546]
+        ]
+    },
+    {
+        "nombre": "Mejoramiento Espacio Recreativo Nevado Incahuasi (San Luis)",
+        "descripcion": "Proyecto en proceso de co-creación con la comunidad de Peñalolén. El objetivo es revitalizar el espacio para fomentar la recreación y actividades culturales.",
+        "lat": -33.504200,
+        "lng": -70.579100,
+        "link": "https://participa.penalolen.cl/Home/detalle/0c44c3db125482594aaccf649214527c01ed23c3",
+        "estado": "En licitación",
+        "presupuesto": "$200,000,000",
+        "fecha_inicio": "2024-06-01",
+        "fecha_termino": "2025-01-31",
+        "empresa_responsable": "Pendiente de adjudicación",
+        "documentos": "https://participa.penalolen.cl/Home/documentos/0c44c3db125482594aaccf649214527c01ed23c3",
+        "avance": "0%",
+        "area": [
+            [-33.503939, -70.579642],
+            [-33.504062, -70.578641],
+            [-33.504457, -70.578697],
+            [-33.504305, -70.579706]
+        ]
+    },
+    {
+    "nombre": "Remodelación Plaza Sánchez Fontecilla 1 Oriente (Peñalolén Alto)",
+    "descripcion": "Proyecto en proceso de co-creación con la comunidad de Peñalolén. Busca mejorar la infraestructura y los espacios recreativos en una zona clave.",
+    "lat": -33.473419,
+    "lng": -70.554153,
+    "link": "https://participa.penalolen.cl/Home/detalle/8c27ce3696442419e684beb691591ef6e6c36e69",
+    "estado": "En licitación",
+    "presupuesto": "$180,000,000",
+    "fecha_inicio": "2024-07-01",
+    "fecha_termino": "2025-02-28",
+    "empresa_responsable": "Pendiente de adjudicación",
+    "documentos": "https://participa.penalolen.cl/Home/documentos/8c27ce3696442419e684beb691591ef6e6c36e69",
+    "avance": "0%",
+    "area": [
+        [-33.473456, -70.554331],
+        [-33.473509, -70.554156],
+        [-33.472866, -70.553970],
+        [-33.472846, -70.554153]
+    ]
+},
+{
+    "nombre": "Remodelación Plaza Calle Local (Peñalolén Alto)",
+    "descripcion": "Proyecto en proceso de co-creación con la comunidad de Peñalolén. Este proyecto busca renovar el espacio público y generar áreas recreativas y de convivencia.",
+    "lat": -33.483876,
+    "lng": -70.526633,
+    "link": "https://participa.penalolen.cl/Home/detalle/c2bacd70bfe0a76ea6c3f6a8bcc25999ba3f7dba",
+    "estado": "En licitación",
+    "presupuesto": "$220,000,000",
+    "fecha_inicio": "2024-08-01",
+    "fecha_termino": "2025-03-30",
+    "empresa_responsable": "Pendiente de adjudicación",
+    "documentos": "https://participa.penalolen.cl/Home/documentos/c2bacd70bfe0a76ea6c3f6a8bcc25999ba3f7dba",
+    "avance": "0%",
+    "area": [
+        [-33.483987, -70.526527],
+        [-33.483955, -70.526793],
+        [-33.483774, -70.526732],
+        [-33.483788, -70.526493]
+    ]
+},
+{
+    "nombre": "Remodelación Plaza 10 de Abril (Lo Hermida)",
+    "descripcion": "Proyecto en proceso de co-creación con la comunidad de Lo Hermida. Busca mejorar el espacio público con áreas recreativas modernas.",
+    "lat": -33.480800,
+    "lng": -70.571500,
+    "link": "https://participa.penalolen.cl/Home/detalle/ad253b1c3df00cfb37fb02b2d8d9d12a7954978a",
+    "estado": "En licitación",
+    "presupuesto": "$210,000,000",
+    "fecha_inicio": "2024-09-01",
+    "fecha_termino": "2025-04-30",
+    "empresa_responsable": "Pendiente de adjudicación",
+    "documentos": "https://participa.penalolen.cl/Home/documentos/ad253b1c3df00cfb37fb02b2d8d9d12a7954978a",
+    "avance": "0%",
+    "area": [
+        [-33.480574, -70.571578],
+        [-33.480941, -70.571734],
+        [-33.481042, -70.571390],
+        [-33.480645, -70.571275]
+    ]
+}    
+]
+
+
+

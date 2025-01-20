@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+#map {
+    height: 100vh; /* El mapa ocupa toda la altura de la ventana */
+    width: 100%; /* El mapa ocupa todo el ancho */
+}
+
+.leaflet-popup-content-wrapper {
+    max-width: 450px; /* Aumenta el ancho máximo del popup */
+    font-family: Arial, sans-serif;
+}
+
+.leaflet-popup-content {
+    font-size: 14px; /* Ajusta el tamaño de letra */
+    line-height: 1.5; /* Mejora el espacio entre líneas */
+}
+
+.leaflet-popup-tip {
+    background-color: #f9f9f9; /* Cambia el color del triángulo del popup */
+}
+
+.legend {
+    position: absolute;
+    bottom: 10px; /* Coloca la leyenda 10px desde el borde inferior */
+    left: 10px; /* Coloca la leyenda 10px desde el borde izquierdo */
+    background: white;
+    padding: 10px;
+    line-height: 18px;
+    color: #333;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.legend h4 {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+}
+
+#filtroEstado {
+    position: absolute;
+    bottom: 10px; /* Coloca el menú encima de la leyenda */
+    left: 10px; /* Coloca el menú alineado con la leyenda en el borde izquierdo */
+    z-index: 1000; /* Asegúrate de que quede por encima del mapa */
+    background: green; /* Fondo verde para contraste */
+    border: 1px solid #ccc; /* Borde sutil */
+    padding: 5px;
+    border-radius: 4px; /* Bordes redondeados */
+    font-size: 15px;
+}
+
+
