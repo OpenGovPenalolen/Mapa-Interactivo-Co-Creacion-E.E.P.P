@@ -165,6 +165,11 @@ legend.onAdd = function (map) {
 };
 legend.addTo(map);
 
+// Ajustar posición en pantallas pequeñas
+if (window.innerWidth < 600) {
+    legend.setPosition('topright');
+}
+
 // Botón de geolocalización
 var geolocateBtn = L.control({ position: 'topleft' });
 geolocateBtn.onAdd = function () {

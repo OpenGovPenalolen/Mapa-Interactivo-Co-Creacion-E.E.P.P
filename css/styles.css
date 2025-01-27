@@ -39,12 +39,15 @@ body {
     padding: 5px; /* Reduce el relleno para compactarla */
     line-height: 18px; /* Reduce el espaciado entre líneas */
     color: #333;
-    border-radius: 8px; /* Mantén los bordes redondeados */
+    border-radius: 5px; /* Mantén los bordes redondeados */
+    border: 1px solid #ccc;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.2); /* Ajusta ligeramente la sombra */
-    font-size: 12px; /* Reduce el tamaño de la fuente */
+    font-size: 10px; /* Reduce el tamaño de la fuente */
     width: auto; /* Ajusta automáticamente el ancho según el contenido */
-    max-width: 200px; /* Reduce el ancho máximo */
+    max-width: 150px; /* Reduce el ancho máximo */
     z-index: 1000;
+    overflow-y: auto; /* Permitir scroll si es necesario */
+
 }
 
 .legend h4 {
