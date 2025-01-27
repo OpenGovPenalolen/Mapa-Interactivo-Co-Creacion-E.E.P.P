@@ -1,5 +1,5 @@
 // Inicializa el mapa centrado en Peñalolén con un zoom adecuado
-var map = L.map('map').setView([-33.477489, -70.5428551], 14);
+var map = L.map('map', { zoomControl: false }).setView([-33.477489, -70.5428551], 14);
 
 // Capa base de Mapbox "Light"
 var capaClaro = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/light-v10/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoieG9yb2R1aSIsImEiOiJjbTV6cjVvc3AwNXU0Mm1wcnE2aXY2ajluIn0.rtWpA-bxHz277RrdK6qc0w', {
