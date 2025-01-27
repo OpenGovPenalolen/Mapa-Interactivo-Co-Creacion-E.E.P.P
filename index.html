@@ -13,18 +13,25 @@
     <!-- Estilo de clústeres (opcional) -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css" />
     <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css" />
+    <!-- Script de Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
     <!-- Menú desplegable para filtrar proyectos -->
     <select id="filtroEstado" style="margin: 10px; padding: 5px; position: absolute; z-index: 1000; background: white; border: 1px solid #ccc; border-radius: 4px;">
         <option value="todos">Todos</option>
-        <option value="licitacion">En licitación</option>
-        <option value="construccion">En construcción</option>
-        <option value="finalizado">Finalizado</option>
+        <option value="Finalizado">Finalizado</option>
+        <option value="En licitación">En licitación</option>
+        <option value="En construcción">En construcción</option>
     </select>
 
     <!-- Contenedor del mapa -->
     <div id="map" style="height: 100vh;"></div>
+
+    <!-- Contenedor para los gráficos de estadísticas -->
+    <div style="position: absolute; top: 10px; right: 10px; z-index: 1000; background: white; padding: 10px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);">
+        <canvas id="estadisticas" width="300" height="200"></canvas>
+    </div>
 
     <!-- Script de Leaflet -->
     <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
@@ -38,3 +45,4 @@
     <script src="js/script.js"></script>
 </body>
 </html>
+

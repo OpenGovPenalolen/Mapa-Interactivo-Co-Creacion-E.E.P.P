@@ -23,42 +23,68 @@ body {
     background-color: #f9f9f9; /* Cambia el color del triángulo del popup */
 }
 
+/* Leyenda */
 .legend {
     position: absolute;
     bottom: 10px; /* Coloca la leyenda 10px desde el borde inferior */
     left: 10px; /* Coloca la leyenda 10px desde el borde izquierdo */
     background: white;
-    padding: 10px;
-    line-height: 18px;
+    padding: 15px; /* Aumenta el relleno para mejor apariencia */
+    line-height: 22px; /* Espaciado entre líneas */
     color: #333;
-    border-radius: 5px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border-radius: 15px; /* Bordes más redondeados */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Mejora la sombra */
+    font-size: 13px; /* Ajusta el tamaño de la fuente */
+    width: auto; /* Ajusta automáticamente el ancho según el contenido */
+    max-width: 300px; /* Establece un ancho máximo */
+    z-index: 1000;
 }
 
 .legend h4 {
     margin: 0;
-    padding: 0;
-    font-size: 16px;
+    padding-bottom: 5px;
+    font-size: 16px; /* Título más prominente */
+    font-weight: bold;
+    color: #333;
 }
 
 .legend i {
-    width: 18px;
-    height: 18px;
+    width: 20px; /* Tamaño del ícono */
+    height: 20px;
     float: left;
-    margin-right: 8px;
-    opacity: 0.7;
+    margin-right: 10px; /* Espaciado con el texto */
+    opacity: 0.9; /* Colores más sólidos */
+    border-radius: 4px; /* Bordes redondeados para los colores */
 }
 
 #filtroEstado {
     position: absolute;
-    bottom: 10px; /* Coloca el menú encima de la leyenda */
-    left: 10px; /* Coloca el menú alineado con la leyenda en el borde izquierdo */
-    z-index: 1000; /* Asegúrate de que quede por encima del mapa */
-    background: green; /* Fondo verde para contraste */
-    border: 1px solid #ccc; /* Borde sutil */
-    padding: 5px;
+    bottom: 70px; /* Ajusta la posición para que quede encima de la leyenda */
+    left: 10px; /* Alineado con la leyenda */
+    z-index: 1000; /* Asegúrate de que quede visible */
+    background: white; /* Fondo blanco */
+    color: #333; /* Texto negro */
+    border: 1px solid #ccc; /* Borde gris */
+    padding: 8px; /* Relleno interno */
     border-radius: 4px; /* Bordes redondeados */
-    font-size: 15px;
+    font-size: 14px; /* Tamaño de fuente ajustado */
+    cursor: pointer; /* Cambia el cursor a mano */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+    outline: none; /* Quita el borde al hacer clic */
+}
+
+#filtroEstado:hover {
+    background: #f0f0f0; /* Color más claro al pasar el mouse */
+}
+
+.map-label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center; /* Centra el texto */
 }
 
 
