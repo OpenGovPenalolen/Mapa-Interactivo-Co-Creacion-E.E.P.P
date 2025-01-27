@@ -5,8 +5,15 @@ body {
 }
 
 #map {
-    height: 100vh; /* El mapa ocupa toda la altura de la ventana */
-    width: 100%; /* El mapa ocupa todo el ancho */
+    width: 100vw; /* Ancho completo */
+    height: 100vh; /* Alto completo */
+}
+
+/* Opcional: Ajusta el menú desplegable en móviles */
+#filtroEstado {
+    width: auto;
+    max-width: 80%;
+    font-size: 14px;
 }
 
 .leaflet-popup-content-wrapper {

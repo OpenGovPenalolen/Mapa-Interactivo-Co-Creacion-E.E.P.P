@@ -184,3 +184,35 @@ geolocateBtn.onAdd = function () {
     return div;
 };
 geolocateBtn.addTo(map);
+
+function ajustarTamañoElementos() {
+    const leyenda = document.querySelector(".legend");
+    const grafico = document.getElementById("graficoContainer");
+
+    if (window.innerWidth < 768) { // Dispositivos móviles
+        leyenda.style.width = "150px"; 
+        leyenda.style.fontSize = "12px";
+        if (grafico) grafico.style.width = "200px";
+    } else { // Pantallas más grandes
+        leyenda.style.width = "200px"; 
+        leyenda.style.fontSize = "14px";
+        if (grafico) grafico.style.width = "300px";
+    }
+}
+
+window.addEventListener("resize", ajustarTamañoElementos);
+ajustarTamañoElementos(); // Llamar al cargar la página
+
+L.control.zoom({ position: "topright" }).addTo(map); // Posiciona el zoom
+
+const graficoCierre = document.createElement("button");
+graficoCierre.innerText = "Cerrar gráfico";
+graficoCierre.style.position = "absolute";
+graficoCierre.style.bottom = "10px";
+graficoCierre.style.right = "10px";
+graficoCierre.style.zIndex = "1000";
+graficoCierre.onclick = () => {
+    const grafico = document.getElementById("graficoContainer");
+    if (grafico) grafico.style.display = "none";
+};
+document.body.appendChild(graficoCierre);
