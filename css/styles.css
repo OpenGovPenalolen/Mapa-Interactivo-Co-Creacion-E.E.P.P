@@ -33,19 +33,23 @@ body {
 /* Leyenda */
 .legend {
     position: absolute;
-    bottom: 300px; /* Mantén la posición */
+    bottom: 10px; /* Mantén la posición */
     left: 5px; /* Mantén la posición */
     background: white;
-    padding: 2px; /* Reduce el relleno para compactarla */
-    line-height: 18px; /* Reduce el espaciado entre líneas */
+    padding: 5px; /* Ajusta el relleno para mantener la legibilidad */
+    line-height: 14px; /* Espaciado más compacto entre líneas */
     color: #333;
-    border-radius: 5px; /* Mantén los bordes redondeados */
+    border-radius: 5px; /* Bordes redondeados */
     border: 1px solid #ccc;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2); /* Ajusta ligeramente la sombra */
-    font-size: 10px; /* Reduce el tamaño de la fuente */
-    width: auto; /* Ajusta automáticamente el ancho según el contenido */
-    max-width: 150px; /* Reduce el ancho máximo */
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.15); /* Sombra más ligera */
+    font-size: 10px; /* Tamaño de fuente reducido */
+    width: auto; /* Ancho adaptable al contenido */
+    max-width: 140px; /* Limita el ancho máximo para dispositivos pequeños */
     z-index: 1000;
+    overflow: visible; /* Elimina el scroll */
+    max-height: none; /* Permite que la altura se ajuste al contenido */
+    text-align: left; /* Alineación para claridad */
+    word-wrap: break-word; /* Asegura que el texto largo no exceda el contenedor */
 }
 
 .legend h4 {
