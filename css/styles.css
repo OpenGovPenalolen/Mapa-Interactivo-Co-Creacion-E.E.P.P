@@ -33,10 +33,10 @@ body {
 /* Leyenda */
 .legend {
     position: absolute;
-    bottom: 50px; /* Mantén la posición */
+    bottom: 10px; /* Mantén la posición */
     left: 10px; /* Mantén la posición */
     background: white;
-    padding: 5px; /* Reduce el relleno para compactarla */
+    padding: 8px; /* Reduce el relleno para compactarla */
     line-height: 18px; /* Reduce el espaciado entre líneas */
     color: #333;
     border-radius: 5px; /* Mantén los bordes redondeados */
@@ -47,7 +47,6 @@ body {
     max-width: 150px; /* Reduce el ancho máximo */
     z-index: 1000;
     overflow-y: auto; /* Permitir scroll si es necesario */
-
 }
 
 .legend h4 {

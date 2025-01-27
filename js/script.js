@@ -157,19 +157,20 @@ var legend = L.control({ position: 'bottomleft' }); // Cambia 'bottomright' a 'b
 legend.onAdd = function (map) {
     var div = L.DomUtil.create("div", "legend");
     div.innerHTML += "<h4>Estado de la Obra</h4>";
-    div.innerHTML += '<i style="background: green; width: 18px; height: 18px; display: inline-block; margin-right: 8px;"></i> Finalizado<br>';
-    div.innerHTML += '<i style="background: blue; width: 18px; height: 18px; display: inline-block; margin-right: 8px;"></i> En licitación<br>';
-    div.innerHTML += '<i style="background: yellow; width: 18px; height: 18px; display: inline-block; margin-right: 8px;"></i> En construcción<br>';
-    div.innerHTML += '<i style="background: gray; width: 18px; height: 18px; display: inline-block; margin-right: 8px;"></i> Sin estado definido<br>';
+    div.innerHTML += '<i style="background: green; width: 10px; height: 10px; display: inline-block; margin-right: 5px;"></i> Finalizado<br>';
+    div.innerHTML += '<i style="background: blue; width: 10px; height: 10px; display: inline-block; margin-right: 5px;"></i> En licitación<br>';
+    div.innerHTML += '<i style="background: yellow; width: 10px; height: 10px; display: inline-block; margin-right: 5px;"></i> En construcción<br>';
+    div.innerHTML += '<i style="background: gray; width: 10px; height: 10px; display: inline-block; margin-right: 5px;"></i> Sin estado definido<br>';
     return div;
 };
 legend.addTo(map);
 
 // Ajustar posición en pantallas pequeñas
 if (window.innerWidth < 600) {
-    legend.setPosition('topright');
+    // Ajusta la posición en móviles
+    document.querySelector('.legend').style.right = '5px';
+    document.querySelector('.legend').style.bottom = '5px';
 }
-
 // Botón de geolocalización
 var geolocateBtn = L.control({ position: 'topleft' });
 geolocateBtn.onAdd = function () {
