@@ -221,33 +221,3 @@ cerrarGraficoBtn.addEventListener("click", () => {
     graficoContainer.style.display = "none";
     toggleGraficoBtn.innerText = "Mostrar Gráfico";
 });
-// Crear un botón para mostrar/ocultar la leyenda
-const toggleLegendButton = L.control({ position: "bottomright" });
-toggleLegendButton.onAdd = function () {
-    const button = L.DomUtil.create("button", "toggle-legend-button");
-    button.innerText = "Leyenda";
-    button.style.padding = "5px 10px";
-    button.style.background = "#007bff";
-    button.style.color = "white";
-    button.style.border = "none";
-    button.style.borderRadius = "4px";
-    button.style.cursor = "pointer";
-
-    button.onclick = function () {
-        const legend = document.querySelector(".legend");
-        if (legend.style.display === "none" || !legend.style.display) {
-            legend.style.display = "block";
-        } else {
-            legend.style.display = "none";
-        }
-    };
-
-    return button;
-};
-toggleLegendButton.addTo(map);
-
-// Inicializar la leyenda oculta en pantallas pequeñas
-if (window.innerWidth < 768) {
-    const legend = document.querySelector(".legend");
-    legend.style.display = "none";
-}

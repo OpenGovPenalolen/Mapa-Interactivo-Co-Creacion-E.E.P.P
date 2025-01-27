@@ -33,17 +33,17 @@ body {
 /* Leyenda */
 .legend {
     position: absolute;
-    bottom: 50px; /* Coloca la leyenda 10px desde el borde inferior */
-    left: 10px; /* Coloca la leyenda 10px desde el borde izquierdo */
+    bottom: 50px; /* Mantén la posición */
+    left: 10px; /* Mantén la posición */
     background: white;
-    padding: 10px; /* Aumenta el relleno para mejor apariencia */
-    line-height: 22px; /* Espaciado entre líneas */
+    padding: 5px; /* Reduce el relleno para compactarla */
+    line-height: 18px; /* Reduce el espaciado entre líneas */
     color: #333;
-    border-radius: 8px; /* Bordes más redondeados */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Mejora la sombra */
-    font-size: 13px; /* Ajusta el tamaño de la fuente */
+    border-radius: 8px; /* Mantén los bordes redondeados */
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2); /* Ajusta ligeramente la sombra */
+    font-size: 12px; /* Reduce el tamaño de la fuente */
     width: auto; /* Ajusta automáticamente el ancho según el contenido */
-    max-width: 300px; /* Establece un ancho máximo */
+    max-width: 200px; /* Reduce el ancho máximo */
     z-index: 1000;
 }
 
