@@ -33,14 +33,14 @@ body {
 /* Leyenda */
 .legend {
     position: absolute;
-    bottom: 10px; /* Coloca la leyenda 10px desde el borde inferior */
+    bottom: 50px; /* Coloca la leyenda 10px desde el borde inferior */
     left: 10px; /* Coloca la leyenda 10px desde el borde izquierdo */
     background: white;
-    padding: 15px; /* Aumenta el relleno para mejor apariencia */
+    padding: 10px; /* Aumenta el relleno para mejor apariencia */
     line-height: 22px; /* Espaciado entre líneas */
     color: #333;
-    border-radius: 15px; /* Bordes más redondeados */
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Mejora la sombra */
+    border-radius: 8px; /* Bordes más redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Mejora la sombra */
     font-size: 13px; /* Ajusta el tamaño de la fuente */
     width: auto; /* Ajusta automáticamente el ancho según el contenido */
     max-width: 300px; /* Establece un ancho máximo */
@@ -94,4 +94,19 @@ body {
     text-align: center; /* Centra el texto */
 }
 
+#graficoContainer {
+    max-width: 90%; /* Que no ocupe toda la pantalla */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
 
+#toggleGrafico {
+    font-size: 14px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    #graficoContainer {
+        width: 80%;
+        padding: 10px;
+    }
+}

@@ -152,7 +152,7 @@ fetch('data/limites_penalolen.geojson')
     .catch(error => console.error('Error al cargar los límites:', error));
 
 // Leyenda
-var legend = L.control({ position: 'bottomright' });
+var legend = L.control({ position: 'bottomleft' }); // Cambia 'bottomright' a 'bottomleft'
 
 legend.onAdd = function (map) {
     var div = L.DomUtil.create("div", "legend");
@@ -205,14 +205,19 @@ ajustarTamañoElementos(); // Llamar al cargar la página
 
 L.control.zoom({ position: "topright" }).addTo(map); // Posiciona el zoom
 
-const graficoCierre = document.createElement("button");
-graficoCierre.innerText = "Cerrar gráfico";
-graficoCierre.style.position = "absolute";
-graficoCierre.style.bottom = "10px";
-graficoCierre.style.right = "10px";
-graficoCierre.style.zIndex = "1000";
-graficoCierre.onclick = () => {
-    const grafico = document.getElementById("graficoContainer");
-    if (grafico) grafico.style.display = "none";
-};
-document.body.appendChild(graficoCierre);
+
+// Mostrar y ocultar el gráfico
+const toggleGraficoBtn = document.getElementById("toggleGrafico");
+const graficoContainer = document.getElementById("graficoContainer");
+const cerrarGraficoBtn = document.getElementById("cerrarGrafico");
+
+toggleGraficoBtn.addEventListener("click", () => {
+    const isVisible = graficoContainer.style.display === "block";
+    graficoContainer.style.display = isVisible ? "none" : "block";
+    toggleGraficoBtn.innerText = isVisible ? "Mostrar Gráfico" : "Ocultar Gráfico";
+});
+
+cerrarGraficoBtn.addEventListener("click", () => {
+    graficoContainer.style.display = "none";
+    toggleGraficoBtn.innerText = "Mostrar Gráfico";
+});

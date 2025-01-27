@@ -29,7 +29,7 @@
         "presupuesto": "$108.526.580 (FLIR)",
         "fecha_inicio": "Sin fecha",
         "fecha_termino": "Sin fecha",
-        "empresa_responsable": "Sin empresa aún",
+        "empresa_responsable": "Sin empresa asignada",
         "documentos": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=oOC6sitsnt3XWfmndIEJ8A==8",
         "avance": "Oferta inadmisible",
         "area": [
@@ -49,7 +49,7 @@
         "presupuesto": "$118.767.711 (FRIL)",
         "fecha_inicio": "2024-10-24",
         "fecha_termino": "Sin fecha",
-        "empresa_responsable": "Sin empresa aún",
+        "empresa_responsable": "Sin empresa asignada",
         "documentos": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=JZpIjB1PdD71vUI63lAKAw==",
         "avance": "0%",
         "area": [
@@ -69,7 +69,7 @@
     "presupuesto": "$153.792.233 (PMU)",
     "fecha_inicio": "Sin fecha",
     "fecha_termino": "Sin fecha",
-    "empresa_responsable": "Sin empresa aún",
+    "empresa_responsable": "Sin empresa asignada",
     "documentos": "https://participa.penalolen.cl/Home/documentos/8c27ce3696442419e684beb691591ef6e6c36e69",
     "avance": "Fondos transferidos, a la espera de aprobación SERVIU",
     "area": [
@@ -89,7 +89,7 @@
     "presupuesto": "$153.967.507 (PMU)",
     "fecha_inicio": "Sin fecha",
     "fecha_termino": "Sin fecha",
-    "empresa_responsable": "Sin empresa aún",
+    "empresa_responsable": "Sin empresa asignada",
     "documentos": "Sin ID Mercado Público",
     "avance": "En espera",
     "area": [
@@ -130,7 +130,7 @@
     "presupuesto": "$133.712.013 (PMU)",
     "fecha_inicio": "Sin fecha",
     "fecha_termino": "Sin fecha",
-    "empresa_responsable": "Sin empresa aún",
+    "empresa_responsable": "Sin empresa asignada",
     "documentos": "https://participa.penalolen.cl/Home/documentos/013fa7fdece7517b5921a13af5980c9d25104d78",
     "avance": "En espera de transferencia de recursos",
     "area": [
@@ -150,7 +150,7 @@
     "presupuesto": "$187.583.628",
     "fecha_inicio": "Sin fecha",
     "fecha_termino": "Sin fecha",
-    "empresa_responsable": "Sin empresa aún",
+    "empresa_responsable": "Sin empresa asignada",
     "documentos": "Sin ID Mercado Público",
     "avance": "Postulado a FLIR 2024",
     "area": [
@@ -170,7 +170,7 @@
     "presupuesto": "$1.225.088.000 (Obra de mitigación)",
     "fecha_inicio": "Sin fecha",
     "fecha_termino": "Sin fecha",
-    "empresa_responsable": "Sin empresa aún",
+    "empresa_responsable": "Sin empresa asignada",
     "documentos": "Sin ID Mercado Público",
     "avance": "Despacho de bases técnicas",
     "area": [
