@@ -33,10 +33,10 @@ body {
 /* Leyenda */
 .legend {
     position: absolute;
-    bottom: 10px; /* Mantén la posición */
+    bottom: 150px; /* Mantén la posición */
     left: 10px; /* Mantén la posición */
     background: white;
-    padding: 8px; /* Reduce el relleno para compactarla */
+    padding: 2px; /* Reduce el relleno para compactarla */
     line-height: 18px; /* Reduce el espaciado entre líneas */
     color: #333;
     border-radius: 5px; /* Mantén los bordes redondeados */
@@ -68,7 +68,7 @@ body {
 
 #filtroEstado {
     position: absolute;
-    bottom: 70px; /* Ajusta la posición para que quede encima de la leyenda */
+    bottom: 30px; /* Ajusta la posición para que quede encima de la leyenda */
     left: 10px; /* Alineado con la leyenda */
     z-index: 1000; /* Asegúrate de que quede visible */
     background: white; /* Fondo blanco */
