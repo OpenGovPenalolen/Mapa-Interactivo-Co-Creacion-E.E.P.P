@@ -42,6 +42,8 @@ function getMarkerColor(estado) {
             return "yellow";    
         case "En licitación":
             return "blue";
+        case "En postulación a fondos":
+            return "orange";
         default:
             return "gray";
     }
@@ -49,7 +51,7 @@ function getMarkerColor(estado) {
 
 // Variables globales
 var markers = []; // Array de marcadores para manejar filtros
-var estadisticas = { "Finalizado": 0, "En licitación": 0, "En construcción": 0, "Sin estado definido": 0 };
+var estadisticas = { "Finalizado": 0, "En licitación": 0, "En construcción": 0, "En postulación a fondos": 0, "Sin estado definido": 0 };
 
 // Carga los datos desde el archivo JSON
 fetch('data/puntos.json')
